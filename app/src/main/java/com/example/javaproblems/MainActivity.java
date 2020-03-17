@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String input = etORiginal.getText().toString();
-
+                // this line is for second branch
                 int length = input.length();
                 for ( int i =length- 1; i >= 0; i-- )
                     reverse = reverse + input.charAt(i);
